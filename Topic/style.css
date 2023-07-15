@@ -1,0 +1,303 @@
+.navbar {
+  background-color: transparent;
+}
+
+.nav-lin {
+  margin-left: 40px;
+  font-weight: bolder;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.nav-lin:hover {
+  color: #13547a;
+}
+
+.fl {
+  width: 100%;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  margin-top: -80px;
+}
+.fl .content {
+  margin: auto;
+  width: 100%;
+  padding-top: 400px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.fl .content .input {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.fl .content .inp {
+  position: absolute;
+  margin-top: 12px;
+  left: 20px;
+  padding: 10px;
+  border: none;
+  width: 50%;
+}
+.fl .content .h1 {
+  font-size: 60px;
+  margin-left: -40px;
+  transform: translateX(15px);
+  color: white;
+}
+.fl .content .h5 {
+  color: #13547a;
+}
+.fl .content .btn {
+  position: absolute;
+  right: 10px;
+  border-radius: 50px;
+  margin-top: 10px;
+  height: 50px;
+  color: white;
+  background-color: #80d0c7;
+  width: 100px;
+}
+.fl .content .btn:hover {
+  background-color: #13547a;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  background-color: #80d0c7;
+  border-radius: 0 0 40px 40px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+.c .card {
+  margin-right: 40px;
+  padding: 40px;
+  transition: all 1s;
+  border-radius: 20px;
+  width: 400px;
+  margin-top: -70px;
+}
+.c .card .button {
+  border-radius: 50px;
+  margin-top: 10px;
+  height: 50px;
+  color: white;
+  background-color: #80d0c7;
+  width: 100px;
+  border: none;
+  filter: brightness(100%);
+}
+.c .card .button:hover {
+  background-color: #13547a;
+}
+.c .card:hover {
+  transform: translateY(-10px);
+}
+@media (max-width: 880px) {
+  .c .background-filt {
+    margin-top: 10px;
+    width: 400px !important;
+  }
+}
+@media (min-width: 1180px) {
+  .c .background-filt {
+    width: 700px !important;
+  }
+}
+.c .background-filt {
+  background-image: url("images/businesswoman-using-tablet-analysis.jpg");
+  background-size: cover;
+  width: 700px;
+  border: none;
+  color: black;
+}
+
+.head {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.head .ul-hrefs {
+  flex-wrap: wrap;
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 17px;
+}
+.head .ul-hrefs .link {
+  margin-right: 10px;
+}
+.head .ul-hrefs .link:hover {
+  color: #13547a;
+  cursor: pointer;
+}
+
+.card {
+  margin-right: 40px;
+  padding: 40px;
+  transition: all 1s;
+  border-radius: 20px;
+  width: 400px;
+}
+.card .button {
+  border-radius: 50px;
+  margin-top: 10px;
+  height: 50px;
+  color: white;
+  background-color: #80d0c7;
+  width: 100px;
+  border: none;
+  filter: brightness(100%);
+}
+.card .button:hover {
+  background-color: #13547a;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-list {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color-background {
+  background-image: url("images/colleagues-working-cozy-office-medium-shot.jpg");
+  padding: 100px;
+}
+.color-background .container {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-background .container .how-it-works {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.color-background .image-content {
+  width: 100%;
+  background-size: cover !important;
+}
+.color-background .content .desc {
+  width: 100%;
+  margin: auto;
+}
+
+@media (max-width: 1343px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 447px) {
+  .card {
+    margin-left: 40px;
+  }
+  .desc {
+    width: 200px !important;
+    margin-left: -70px !important;
+  }
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.accordion .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.FAQ {
+  margin-top: 50px;
+}
+.FAQ .main {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.FAQ .f-main .img {
+  width: 100%;
+}
+.FAQ .s-main {
+  margin-top: 200px;
+  width: 700px;
+}
+
+.con-foo {
+  background-color: #f0f8ff;
+}
+.con-foo .main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mr {
+  margin-right: 70px;
+}
+
+.cn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cn .f-main {
+  display: flex;
+}
+
+.ul {
+  list-style-type: none;
+}
+.ul li {
+  color: #13547a;
+}
+
+@media (max-width: 992px) {
+  .fl {
+    margin-top: -250px;
+  }
+}
+@media (min-width: 2710px) {
+  .acc-panel {
+    transform: translateY(620px);
+  }
+}
+@media (max-width: 2602px) {
+  .acc-panel {
+    transform: translateY(-200px);
+  }
+}
+@media (max-width: 389px) {
+  .inp {
+    width: 100%;
+  }
+}
+.active {
+  outline: none;
+}/*# sourceMappingURL=style.css.map */
